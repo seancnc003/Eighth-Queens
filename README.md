@@ -1,14 +1,34 @@
-# Eighth-Queens
+# Eight Queens Problem Solver
 
-The Eight Queens is a modified version of a classical problem and leetcode hard called N Queens. 
-In the original version, the task is to put an N amount of Queens in an N by N chessboard in a way 
-that they do no threaten each other. In this version, it's placing 8 Queens in an 8 by 8 chessboard.
+A C++ implementation of the classic **Eight Queens Problem** using backtracking and recursion. The program places eight queens on a chessboard such that no two queens threaten each other.
 
-This problem is solved through a programming technique called recursive backtracking. It is an algorithm
-that takes a Big O notation time of N factorial and uses recursion.
+## Features
+- **Customizable Input**: Allows the user to input the initial coordinates for the first queen.
+- **Backtracking Algorithm**: Ensures valid placement of queens while exploring all possible configurations.
+- **Safety Checks**: Validates queen placements across rows, columns, and diagonals.
+- **Visualization**: Outputs the final chessboard with all eight queens placed.
 
-The way it is done is by placing a queen on the chess board then going another row and trying to place
-another queen. If no moves are available, you switch out your first move and place the queen in a different
-column.
+---
 
-The C++ code is provided.
+## Problem Statement
+The Eight Queens Problem is a chess puzzle where the objective is to place eight queens on an 8×8 chessboard so that no two queens threaten each other. This means:
+- No two queens share the same row, column, or diagonal.
+
+---
+
+## How It Works
+1. **Input**: 
+   - The user specifies the coordinates of the initial queen.
+   - Example: `(4, 5)` places a queen at row 4, column 5.
+2. **Backtracking Algorithm**:
+   - Starts with the user-defined queen and recursively places the remaining queens.
+   - Backtracks whenever a conflict is detected to explore alternative placements.
+3. **Output**:
+   - Displays the final chessboard with queens marked as `Q` and empty squares as `-`.
+
+---
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/eight-queens-solver.git
