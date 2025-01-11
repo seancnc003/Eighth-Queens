@@ -32,3 +32,11 @@ The Eight Queens Problem is a chess puzzle where the objective is to place eight
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/eight-queens-solver.git
+
+
+## Resume Bullet Points
+Eight Queens Calculator (C++/Recursion) | Data Structures and Algorithms            
+
+* Designed a C++ program to solve a modified leetcode hard problem revolving recursion and backtracking
+* Places 7 queens on a full 8x8 chessboard after user picks first location in a way that no queen is attacking each other
+
